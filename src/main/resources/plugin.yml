@@ -1,0 +1,11 @@
+name: InventoryManager
+version: '${project.version}'
+main: org.hexa.inventorymanager.InventoryManager
+api-version: '1.20'
+commands:
+  restoreinv:
+    usage: /<command>
+    description: Restaura Los inventarios
+  inventories:
+    description: Administra los kits
+    usage: /<command> <make|deploy|restore> [KitName]
