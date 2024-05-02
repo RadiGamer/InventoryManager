@@ -5,7 +5,6 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.hexa.inventorymanager.InventoryManager;
 import org.hexa.inventorymanager.Manager.InvManager;
-import org.jetbrains.annotations.NotNull;
 
 public class RestoreInventory implements CommandExecutor {
 
